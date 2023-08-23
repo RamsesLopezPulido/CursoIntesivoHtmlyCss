@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: khaki;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 15px;
+
+    /* En flexbox primero debemos de poner 
+        obligatoriamente lo siguiente en el contenerdor padre */
+    display: flex;   
+    
+    flex-flow: row wrap;
+
+    justify-content: space-around;
+
+.box {
+    border: 3px solid black;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px;
+}
