@@ -3,25 +3,34 @@ body {
     padding: 0;
     box-sizing: border-box; 
     font-family: sans-serif;
+    background: #202020;
+    
 }
 
 .container {
-    background-color: khaki;
-    padding: 5px;
-    border: 1px solid black;
-    margin: 15px;
-
-    /* En flexbox primero debemos de poner 
-        obligatoriamente lo siguiente en el contenerdor padre */
-    display: flex;   
-    
+    background: black;
+    height: 100vh;
+    display: flex;
     flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
 
-    justify-content: space-around;
+.boxcontainer{
+    background: rebeccapurple;
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
 
-.box {
-    border: 3px solid black;
-    font-size: 30px;
-    text-align: center;
-    margin: 15px;
+.uno {
+    background: red;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    
 }

@@ -4,11 +4,17 @@ body {
     box-sizing: border-box; 
     font-family: sans-serif;
     background:black ;
+    height: 100 vh;
 }
 
 .container {
     background-color: #202020;
-   
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 100vh;
 }
 
 .uno {
@@ -16,6 +22,7 @@ body {
     width: 200px;
     height: 200px;
     border-radius: 15px;
+    
 }
 
 .dos {
